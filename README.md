@@ -1,1 +1,1 @@
-"# spend-revenue-statistic" 
+# spend-revenue-statistic
