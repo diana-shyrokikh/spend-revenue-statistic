@@ -16,7 +16,7 @@ class SpendViewSet(viewsets.ModelViewSet):
     serializer_class = SpendSerializer
 
 
-class SpendStaticView(APIView):
+class SpendStatisticView(APIView):
     @staticmethod
     def get(request):
         spend_statistic = SpendStatistic.objects.annotate(
